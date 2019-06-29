@@ -1,0 +1,4 @@
+Get information about ingress interface by command
+kubectl describe ingress devops-challenge-calc
+Setup DNS override via /etc/hosts or dnsmasq
+http://calc.devops-challenge/calc?vf=200&vi=5&t=123

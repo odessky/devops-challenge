@@ -9,7 +9,7 @@ image:
   acceleration_a: acceleration-a
   acceleration_calc: acceleration-calc
   tag: latest
-  pullPolicy: Never
+  pullPolicy: IfNotPresent
 
 imagePullSecrets: []
 nameOverride: ""
@@ -17,7 +17,7 @@ fullnameOverride: ""
 
 probes:
   init: 5
-  period: 5
+  period: 3
   success: 1
   failure: 1
   timeout: 1

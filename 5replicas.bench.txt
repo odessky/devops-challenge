@@ -1,0 +1,45 @@
+This is ApacheBench, Version 2.3 <$Revision: 1807734 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking calc.devops-challenge (be patient)
+
+
+Server Software:        nginx/1.15.9
+Server Hostname:        calc.devops-challenge
+Server Port:            80
+
+Document Path:          /calc?vf=200&vi=5&t=123
+Document Length:        24 bytes
+
+Concurrency Level:      1
+Time taken for tests:   142.642 seconds
+Complete requests:      50000
+Failed requests:        1499
+   (Connect: 0, Receive: 0, Length: 1499, Exceptions: 0)
+Non-2xx responses:      1499
+Keep-Alive requests:    0
+Total transferred:      8770020 bytes
+HTML transferred:       1186509 bytes
+Requests per second:    350.53 [#/sec] (mean)
+Time per request:       2.853 [ms] (mean)
+Time per request:       2.853 [ms] (mean, across all concurrent requests)
+Transfer rate:          60.04 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       4
+Processing:     1    3  23.8      2    1069
+Waiting:        0    3  23.8      2    1069
+Total:          1    3  23.8      2    1070
+
+Percentage of the requests served within a certain time (ms)
+  50%      2
+  66%      2
+  75%      2
+  80%      2
+  90%      3
+  95%      3
+  98%      5
+  99%      7
+ 100%   1070 (longest request)
